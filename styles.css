@@ -1,3 +1,38 @@
-body {background: hsl(218, 28%, 13%);}
+
+html {
+    background: hsl(217, 28%, 15%);
+}
+
+body, header, nav, footer, main {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+}
+
+header {
+}
+
+nav {
+
+}
+
+main {
+
+}
+
+main #main-content {
+    width: 100%;
+    height: auto;
+    background-image: url("images/bg-curvy-desktop.svg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+footer {
+
+}
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
