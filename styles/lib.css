@@ -1,0 +1,38 @@
+/* Buttons */
+@keyframes cta-hover {
+    0% {background-color: var(--button-color1);}
+    50% {background-image: radial-gradient(var(--button-color2), var(--button-color1));}
+    100% {background-color: var(--button-color2);}
+}
+
+.button {
+    padding: 15px 60px;
+    margin: 15px;
+    background-color: var(--button-color1);
+    text-decoration: none;
+    color: var(--neutral);
+    display: inline-block;
+    border-radius: 30px;
+}
+
+.button:hover {
+    animation-name: cta-hover;
+    animation-duration: 0.15s;
+    animation-delay: 0.05s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+}
+
+/* Flex containers */
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
